@@ -1,131 +1,202 @@
 .pokemons {
+    font-family: fantasy;
     display: grid;
     grid-template-columns: 1fr;
-    margin: 0;
-    padding: 0;
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+@keyframes moveGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 200% 50%;
+    }
 }
 
 .normal {
-    background-color: #a6a877;
+    background-color: #449c95;
+    border-radius: 10px;
+    border: 5px solid transparent;
+    background: linear-gradient(#192514, #449c95) padding-box, 
+                linear-gradient(45deg, #070c23, #449c95, #070c23) border-box;
+    background-size: 200% 200%;
+    animation: moveGradient 3s linear infinite;
 }
 
 .grass {
     background-color: #77c850;
+    border-radius: 10px;
+    border: 5px solid transparent;
+    background: linear-gradient(#253020, #77c850) padding-box, 
+                linear-gradient(45deg, #070c23, #77c850, #070c23) border-box;
+    background-size: 200% 200%;
+    animation: moveGradient 3s linear infinite;
 }
+
 
 .fire {
     background-color: #ee7f30;
+    border-radius: 10px;
+    border: 5px solid transparent;
+    background: linear-gradient(#0e0601, #ee7f30) padding-box, 
+                linear-gradient(45deg, #070c23, #ee7f30, #070c23) border-box;
+    background-size: 200% 200%;
+    animation: moveGradient 3s linear infinite;
 }
 
 .water {
     background-color: #678fee;
+    border-radius: 10px;
+    border: 5px solid transparent;
+    background: linear-gradient(#242933, #678fee) padding-box, 
+                linear-gradient(45deg, #070c23, #678fee, #070c23) border-box;
+    background-size: 200% 200%;
+    animation: moveGradient 3s linear infinite;
 }
 
 .electric {
     background-color: #f7cf2e;
+    border-radius: 10px;
+    border: 5px solid transparent;
+    background: linear-gradient(#2e2b1f, #f7cf2e) padding-box, 
+                linear-gradient(45deg, #070c23, #f7cf2e, #070c23) border-box;
+    background-size: 200% 200%;
+    animation: moveGradient 3s linear infinite;
 }
 
 .ice {
     background-color: #98d5d7;
+    border-radius: 10px;
+    border: 5px solid transparent;
+    background: linear-gradient(#98d5d7 #98d5d7) padding-box, 
+                linear-gradient(45deg, #070c23, #98d5d7, #070c23) border-box;
+    background-size: 200% 200%;
+    animation: moveGradient 3s linear infinite;
 }
 
 .ground {
     background-color: #dfbf69;
+    border-radius: 10px;
+    border: 5px solid transparent;
+    background: linear-gradient(#dfbf69, #dfbf69) padding-box, 
+                linear-gradient(45deg, #070c23, #dfbf69, #070c23) border-box;
+    background-size: 200% 200%;
+    animation: moveGradient 3s linear infinite;
 }
 
 .flying {
     background-color: #a98ff0;
+    border-radius: 10px;
+    border: 5px solid transparent;
+    background: linear-gradient(#09060f, #a98ff0) padding-box, 
+                linear-gradient(45deg, #070c23, #a98ff0, #070c23) border-box;
+    background-size: 200% 200%;
+    animation: moveGradient 3s linear infinite;
 }
 
 .poison {
     background-color: #a040a0;
+    border-radius: 10px;
+    border: 5px solid transparent;
+    background: linear-gradient(#09060f, #a040a0) padding-box, 
+                linear-gradient(45deg, #070c23, #a040a0, #070c23) border-box;
+    background-size: 200% 200%;
+    animation: moveGradient 3s linear infinite;
 }
 
 .fighting {
     background-color: #bf3029;
+    border-radius: 10px;
+    border: 5px solid transparent;
+    background: linear-gradient(#09060f, #bf3029) padding-box, 
+                linear-gradient(45deg, #070c23, #bf3029, #070c23) border-box;
+    background-size: 200% 200%;
+    animation: moveGradient 3s linear infinite;
 }
 
 .psychic {
     background-color: #f65687;
+    border-radius: 10px;
+    border: 5px solid transparent;
+    background: linear-gradient(#09060f, #f65687) padding-box, 
+                linear-gradient(45deg, #070c23, #f65687, #070c23) border-box;
+    background-size: 200% 200%;
+    animation: moveGradient 3s linear infinite;
 }
 
 .dark {
     background-color: #725847;
+    border-radius: 10px;
+    border: 5px solid transparent;
+    background: linear-gradient(#09060f, #725847) padding-box, 
+                linear-gradient(45deg, #070c23, #725847, #070c23) border-box;
+    background-size: 200% 200%;
+    animation: moveGradient 3s linear infinite;
 }
 
 .rock {
     background-color: #b8a137;
+    border-radius: 10px;
+    border: 5px solid transparent;
+    background: linear-gradient(#09060f, #b8a137) padding-box, 
+                linear-gradient(45deg, #070c23, #b8a137, #070c23) border-box;
+    background-size: 200% 200%;
+    animation: moveGradient 3s linear infinite;
 }
 
 .bug {
     background-color: #a8b720;
+    border-radius: 10px;
+    border: 5px solid transparent;
+    background: linear-gradient(#09060f, #a8b720) padding-box, 
+                linear-gradient(45deg, #070c23, #a8b720, #070c23) border-box;
+    background-size: 200% 200%;
+    animation: moveGradient 3s linear infinite;
 }
 
 .ghost {
     background-color: #6e5896;
+    border-radius: 10px;
+    border: 5px solid transparent;
+    background: linear-gradient(#09060f, #6e5896) padding-box, 
+                linear-gradient(45deg, #070c23, #6e5896, #070c23) border-box;
+    background-size: 200% 200%;
+    animation: moveGradient 3s linear infinite;
 }
 
 .steel {
     background-color: #b9b7cf;
+    border-radius: 10px;
+    border: 5px solid transparent;
+    background: linear-gradient(#09060f, #b9b7cf) padding-box, 
+                linear-gradient(45deg, #070c23, #b9b7cf, #070c23) border-box;
+    background-size: 200% 200%;
+    animation: moveGradient 3s linear infinite;
 }
 
 .dragon {
     background-color: #6f38f6;
+    border-radius: 10px;
+    border: 5px solid transparent;
+    background: linear-gradient(#09060f, #6f38f6) padding-box, 
+                linear-gradient(45deg, #070c23, #6f38f6, #070c23) border-box;
+    background-size: 200% 200%;
+    animation: moveGradient 3s linear infinite;
 }
 
 .fairy {
     background-color: #f9aec7;
+    border-radius: 10px;
+    border: 5px solid transparent;
+    background: linear-gradient(#09060f, #f9aec7) padding-box, 
+                linear-gradient(45deg, #070c23, #f9aec7, #070c23) border-box;
+    background-size: 200% 200%;
+    animation: moveGradient 3s linear infinite;
 }
 
-.pokemon {
-    display: flex;
-    flex-direction: column;
-    margin: .5rem;
-    padding: 1rem;
-    border-radius: 1rem;
-}
-
-.pokemon .number {
-    color: #000;
-    opacity: .3;
-    text-align: right;
-    font-size: .625rem;
-}
-
-.pokemon .name {
-    text-transform: capitalize;
-    color: #fff;
-    margin-bottom: .25rem;
-}
-
-.pokemon .detail {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.pokemon .detail .types {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-.pokemon .detail .types .type {
-    color: #fff;
-    padding: .25rem .5rem;
-    margin: .25rem 0;
-    font-size: .625rem;
-    border-radius: 1rem;
-    filter: brightness(1.1);
-    text-align: center;
-}
-
-.pokemon .detail img {
-    max-width: 100%;
-    height: 70px;
-}
 
 .pagination {
     display: flex;
@@ -146,7 +217,84 @@
     border-radius: 1rem;
 }
 
-@media screen and (min-width: 380px) {
+.pokemon {
+    max-width: 300px;
+    min-width: 188px;
+    display: flex;
+    flex-direction: column;
+    margin: .3rem;
+    padding: 1rem;
+    border-radius: 1rem;
+
+
+}
+
+.pokemon .detail {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.pokemon .detail .types {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+
+
+.pokemon .detail .types .type {
+
+    color: #fff;
+    padding: .25rem 1rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    border-radius: 1rem;
+    text-align: center;
+    filter: brightness(1.1);
+}
+
+.pokemon .number {
+    color: black;
+    text-align: right;
+    opacity: .3;
+    font-size: .625rem;
+}
+
+
+.pokemon .name {
+    color: #fff;
+    margin-bottom: .25rem;
+    text-transform: capitalize;
+}
+
+.pokemon .detail img {
+    max-width: 100%;
+    height: 85px;
+
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    padding: 6px;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+
+ul {
+    margin-left: -33px;
+    text-align: justify;
+}
+
+
+
+@media screen and (min-width: 390px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
     }
